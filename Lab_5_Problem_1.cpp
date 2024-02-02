@@ -1,7 +1,6 @@
 #include <stdio.h>
 int display [2];
 int process (int numbers [2]){
-	//int display [2];
 	for (int j = 0; j < 3; ++j){
 		if (numbers [0] < numbers [1] && numbers [0] < numbers [2]){
 			display [0] = numbers [0];
